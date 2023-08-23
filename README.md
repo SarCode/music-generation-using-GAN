@@ -7,9 +7,9 @@ Welcome to the "Music Generation using GAN" project! This guide will walk you th
 The project repository contains the following folders and files:
 
 - **Music_GAN**: Contains the code and dataset for the project.
-  - **Sentiment_Poetry.ipynb**: Used for emotion analysis on poetry, which contributes to music generation.
-  - **MIDI_Image.ipynb**: Converts MIDI files to images for training data preparation.
-  - **Music_GAN.ipynb**: Main code file for the GAN-based music generation process.
+- **Sentiment_Poetry.ipynb**: Used for emotion analysis on poetry, which contributes to music generation.
+- **MIDI_Image.ipynb**: Converts MIDI files to images for training data preparation.
+- **Music_GAN.ipynb**: Main code file for the GAN-based music generation process.
 
 ## Setup and Prerequisites
 
