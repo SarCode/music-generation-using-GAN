@@ -1,28 +1,41 @@
-Hey, 
+# Music Generation using GAN
 
-Here are the instructions to run my project Music Generation using GAN.
+Welcome to the "Music Generation using GAN" project! This guide will walk you through the steps to run the project successfully.
 
-Folder Music_GAN contains all the code and dataset.
+## Project Structure
 
-Code folder contains three files:
-1. Sentiment_Poetry.ipynb : Used for emotion analysis on poetry which will be used to generate music.
+The project repository contains the following folders and files:
 
-2. MIDI_Image.ipynb : Used to convert MIDI to Image so that we pass pixels as training data to GAN.
+- **Music_GAN**: Contains the code and dataset for the project.
+  - **Sentiment_Poetry.ipynb**: Used for emotion analysis on poetry, which contributes to music generation.
+  - **MIDI_Image.ipynb**: Converts MIDI files to images for training data preparation.
+  - **Music_GAN.ipynb**: Main code file for the GAN-based music generation process.
 
-3. Music_GAN.ipynb : This is our main code file which contains all of GAN code.
+## Setup and Prerequisites
 
-We don't need to run file 1 and file 2, as their output is already stored.
+1. Clone the repository: [GitHub Repository](https://github.com/SarCode/music-generation-using-GAN).
+2. Upload the `Music_GAN.ipynb` file to Google Colab.
 
-Original dataset can be found in : https://github.com/SarCode/music-generation-using-GAN
+## Running the Code
 
-After passing lofi_original(available in URL given above) to MIDI_Image.ipynb, the output images are stored in lofi_png folder.
+Follow these steps to run the main code for music generation:
 
-After running all the code a sample input and output are stored Final_Output folder, where file "Sample Poem" was the input and the output .wav files are stored in the same directory.
+1. **Upload Dataset**: You can use the original dataset available in the [GitHub Repository](https://github.com/SarCode/music-generation-using-GAN). Optionally, you can upload the dataset to your Google Drive for easy access.
 
+2. **Run Music_GAN.ipynb**:
+   - Open the `Music_GAN.ipynb` notebook in Google Colab.
+   - Mount your Google Drive if you've uploaded the dataset there.
+   - Modify any necessary paths or configurations as mentioned in the notebook.
+   - Run the cells step by step to execute the GAN-based music generation process.
 
-Steps to run main code:
+## Output and Results
 
-1. You can upload dataset(https://github.com/SarCode/music-generation-using-GAN) on Google Drive.
-2. Upload Music_GAN.ipynb to Google Colab.
-3. Run Music_GAN.ipynb
+- The output images generated from the MIDI files can be found in the `lofi_png` folder.
+- Sample input and output files are stored in the `Final_Output` folder. The input, named "Sample Poem," and the corresponding output `.wav` files are located in the same directory.
 
+## Note
+
+- You do not need to run `Sentiment_Poetry.ipynb` or `MIDI_Image.ipynb` as their outputs are already available.
+- The original dataset and additional resources are available in the [GitHub Repository](https://github.com/SarCode/music-generation-using-GAN).
+
+Enjoy exploring the world of music generation using GANs!
